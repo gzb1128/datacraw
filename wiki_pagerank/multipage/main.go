@@ -11,6 +11,7 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"sync"
 )
 
 type MediaWiki struct {
@@ -38,22 +39,26 @@ type PageRankProcessor struct {
 	nameCnt    int
 	nameMap    map[string]int
 	// concurrent need fix
-	edge map[int][]int
-	//	edge     sync.Map
-	edgeCnt  []int
-	iteTime  int
-	prAlpha  float64
-	fin      []Combine
-	curScore []float64
+	//edge map[int][]int
+	edge         [][]int
+	edgeCnt      []int
+	iteTime      int
+	prAlpha      float64
+	fin          []Combine
+	curScore     []float64
+	fileParallel int
+	pageParallel int
 }
 
-func (t *PageRankProcessor) Config(rootDir string, iteTime int, prAlpha float64) {
+func (t *PageRankProcessor) Config(rootDir string, iteTime int, prAlpha float64, fileParallel int, pageParallel int) {
 	t.baseXml = "{http://www.mediawiki.org/xml/export-0.10/}"
 	t.rootDir = rootDir
 	t.nameMap = map[string]int{}
-	t.edge = map[int][]int{}
+	//t.edge = map[int][]int{}
 	t.iteTime = iteTime
 	t.prAlpha = prAlpha
+	t.fileParallel = fileParallel
+	t.pageParallel = pageParallel
 }
 
 func rawXmlToStr(raw string) (str string) {
@@ -92,7 +97,7 @@ func (t *PageRankProcessor) indexParser(fileName string) error {
 	}
 }
 
-func (t *PageRankProcessor) pageParser(fileName string) error {
+func (t *PageRankProcessor) pageParser(fileName string, pool chan int) error {
 	path := t.rootDir + fileName
 	log.Printf("loading page %+v", path)
 	file, err := os.Open(path)
@@ -110,6 +115,9 @@ func (t *PageRankProcessor) pageParser(fileName string) error {
 		fmt.Printf("err in unmarshal\n")
 		return err
 	}
+	// release mem
+	data = []byte{}
+	log.Printf("success parse xml page %+v", path)
 	regex := "\\[\\[.*?\\]\\]"
 	pattern, err := regexp.Compile(regex)
 	var name string
@@ -118,37 +126,55 @@ func (t *PageRankProcessor) pageParser(fileName string) error {
 			log.Panicln(name)
 		}
 	}()
-	// cur is stable, nex will fetch other pages
-	for _, page := range mediaWiki.Page {
-		title := page.Title
-		cur, ok := t.nameMap[title]
-		if !ok {
-			log.Panicf("nameMap not hit %+v", title)
+
+	wg := &sync.WaitGroup{}
+	wg.Add(t.pageParallel)
+	unit := len(mediaWiki.Page) / t.pageParallel
+	for i := 0; i < t.pageParallel; i += 1 {
+		var partition []Page
+		if i == t.pageParallel-1 {
+			partition = mediaWiki.Page[i*unit:]
+		} else {
+			partition = mediaWiki.Page[i*unit : (i+1)*unit]
 		}
-		matches := pattern.FindAllString(page.Text, -1)
-		for _, str := range matches {
-			if index := strings.Index(str, "|"); index > 0 {
-				name = str[2:index]
-			} else {
-				name = str[2 : len(str)-2]
+		go func() {
+			defer func() { wg.Done() }()
+			// cur is stable, nex will fetch other pages
+			for _, page := range partition {
+				title := page.Title
+				cur, ok := t.nameMap[title]
+				if !ok {
+					log.Panicf("nameMap not hit %+v", title)
+				}
+				matches := pattern.FindAllString(page.Text, -1)
+				for _, str := range matches {
+					if index := strings.Index(str, "|"); index > 0 {
+						name = str[2:index]
+					} else {
+						name = str[2 : len(str)-2]
+					}
+					if len(name) == 0 {
+						continue
+					}
+					if name[0] >= 'a' && name[0] <= 'z' {
+						tmp := []rune(name)
+						tmp[0] = tmp[0] - 'a' + 'A'
+						name = string(tmp)
+					}
+					nex, ok := t.nameMap[name]
+					if !ok {
+						continue
+					}
+					t.edgeCnt[cur] += 1
+					t.edge[cur] = append(t.edge[cur], nex)
+					//			t.edge[nex] = append(t.edge[nex], cur)
+				}
+				//		fmt.Printf("%d\n", t.edgeCnt[cur])
 			}
-			if len(name) == 0 {
-				continue
-			}
-			if name[0] >= 'a' && name[0] <= 'z' {
-				tmp := []rune(name)
-				tmp[0] = tmp[0] - 'a' + 'A'
-				name = string(tmp)
-			}
-			nex, ok := t.nameMap[name]
-			if !ok {
-				continue
-			}
-			t.edgeCnt[cur] += 1
-			t.edge[nex] = append(t.edge[nex], cur)
-		}
-		//		fmt.Printf("%d\n", t.edgeCnt[cur])
+		}()
 	}
+	wg.Wait()
+	log.Printf("success loading page %+v", path)
 	return nil
 }
 
@@ -174,11 +200,36 @@ func (t *PageRankProcessor) prepareFiles() {
 	}
 	log.Println("pass indexParser, nameCnt is ", t.nameCnt)
 	t.edgeCnt = make([]int, t.nameCnt)
+	t.edge = make([][]int, t.nameCnt)
+
 	log.Println("into pageParser")
-	for _, name := range t.pageFiles {
-		if err := t.pageParser(name); err != nil {
-			log.Panicf("%+v\n", err)
-		}
+	wg := &sync.WaitGroup{}
+	wg.Add(len(t.pageFiles))
+	pool := make(chan int, t.fileParallel)
+	for i := 0; i < t.fileParallel; i += 1 {
+		pool <- 1
+	}
+	var wgErr error
+	for index := range t.pageFiles {
+		name := t.pageFiles[index]
+		go func() {
+			defer func() {
+				//release pool
+				pool <- 1
+				wg.Done()
+			}()
+			select {
+			case <-pool:
+				if err := t.pageParser(name, pool); err != nil {
+					wgErr = err
+					log.Panicf("%+v\n", err)
+				}
+			}
+		}()
+	}
+	wg.Wait()
+	if wgErr != nil {
+		log.Panicln("err in sync group")
 	}
 }
 
@@ -205,13 +256,13 @@ func (t *PageRankProcessor) calcPageRank() {
 			pool += oldScore[i]
 			continue
 		}
-		pres := t.edge[i]
-		for _, pre := range pres {
-			t.curScore[i] += oldScore[pre] / float64(t.edgeCnt[pre])
+		allNex := t.edge[i]
+		for _, nex := range allNex {
+			t.curScore[nex] += oldScore[i] / float64(cnt)
 		}
-		t.curScore[i] *= t.prAlpha
 	}
 	for i := 0; i < t.nameCnt; i += 1 {
+		t.curScore[i] *= t.prAlpha
 		t.curScore[i] += pool*t.prAlpha/float64(t.nameCnt) + (1.0-t.prAlpha)/float64(t.nameCnt)
 	}
 
@@ -219,7 +270,7 @@ func (t *PageRankProcessor) calcPageRank() {
 
 func (t *PageRankProcessor) collect() {
 	// realise mem
-	t.edge = map[int][]int{}
+	t.edge = make([][]int, 0)
 	t.edgeCnt = make([]int, 0)
 	log.Println("collecting pagerank")
 	for name, index := range t.nameMap {
@@ -240,7 +291,7 @@ func (t *PageRankProcessor) Run() []Combine {
 
 func main() {
 	processor := &PageRankProcessor{}
-	processor.Config("../../data/", 50, 0.9)
+	processor.Config("../../../data/", 50, 0.9, 2, 2)
 	filePath := processor.rootDir + "pagerank.txt"
 	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
