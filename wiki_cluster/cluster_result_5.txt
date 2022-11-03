@@ -1,0 +1,639 @@
+cluster id	1	April
+cluster id	1	August
+cluster id	1	December
+cluster id	1	February
+cluster id	1	January
+cluster id	1	July
+cluster id	1	Leap year
+cluster id	1	March
+cluster id	1	May
+cluster id	1	Common year
+cluster id	2	A
+cluster id	2	Writing
+cluster id	2	I
+cluster id	2	Q
+cluster id	2	Y
+cluster id	2	Z
+cluster id	2	Alphabet
+cluster id	2	Latin script
+cluster id	2	Letter
+cluster id	3	Arithmetic
+cluster id	3	Food
+cluster id	3	Pint
+cluster id	3	Like
+cluster id	3	Litre
+cluster id	3	Metre
+cluster id	3	Spache Readability Formula
+cluster id	3	Subtraction
+cluster id	3	Unit of measurement
+cluster id	3	United States customary units
+cluster id	3	Republic of China
+cluster id	3	Scurvy
+cluster id	3	Fluid ounce
+cluster id	3	Time
+cluster id	3	Vitamin C
+cluster id	3	Rickets
+cluster id	3	List of physics topics
+cluster id	3	Kuala Lumpur
+cluster id	3	Lisa Kudrow
+cluster id	4	Atom
+cluster id	4	Black pudding
+cluster id	4	Chemistry
+cluster id	4	Compound
+cluster id	4	Cytology
+cluster id	4	Ebola virus
+cluster id	4	Chemical element
+cluster id	4	Life
+cluster id	4	Metabolism
+cluster id	4	Molecule
+cluster id	4	Protein
+cluster id	4	Periodic table
+cluster id	4	Table
+cluster id	4	Zinc
+cluster id	4	Ion
+cluster id	4	Argon
+cluster id	4	Developmental biology
+cluster id	4	Blood
+cluster id	4	Gold
+cluster id	4	Metal
+cluster id	4	Isotope
+cluster id	4	Crucible
+cluster id	4	Lithium
+cluster id	4	Beryllium
+cluster id	4	Chemical warfare
+cluster id	4	Polymer
+cluster id	4	Dental pulp
+cluster id	4	Protoplasm
+cluster id	4	Chemical cell
+cluster id	4	Enzyme
+cluster id	4	Electron
+cluster id	4	Solid
+cluster id	4	Organic compound
+cluster id	4	Brass
+cluster id	4	Body
+cluster id	4	Alloy
+cluster id	4	Brain
+cluster id	4	Neuron
+cluster id	4	DNA
+cluster id	4	Electrical cell
+cluster id	4	Dry cell
+cluster id	4	Chemical change
+cluster id	4	Cytokine
+cluster id	4	Platinum
+cluster id	4	Mineral
+cluster id	4	Metallurgy
+cluster id	4	Carbon
+cluster id	4	Bronze Age
+cluster id	4	Iron Age
+cluster id	4	Sulfur
+cluster id	4	Aluminium
+cluster id	4	Virus
+cluster id	4	Biochemistry
+cluster id	4	List of elements by symbol
+cluster id	4	Periodic table (big)
+cluster id	4	Periodic table (metals and non-metals)
+cluster id	4	ELISPOT
+cluster id	4	List of biochemistry topics
+cluster id	4	White blood cell
+cluster id	4	Lymphocyte
+cluster id	4	Ionic compound
+cluster id	4	Chemical compound
+cluster id	4	Kwashiorkor
+cluster id	4	Granzyme
+cluster id	4	Battery
+cluster id	5	Astronomy
+cluster id	5	Asteroid
+cluster id	5	Capitalization
+cluster id	5	Galaxy
+cluster id	5	Jupiter
+cluster id	5	Milky Way
+cluster id	5	Neptune
+cluster id	5	Planet
+cluster id	5	Solar System
+cluster id	5	Saturn
+cluster id	5	Universe
+cluster id	5	Uranus
+cluster id	5	Radio telescope
+cluster id	5	Natural satellite
+cluster id	5	Telescope
+cluster id	5	Jupiter (disambiguation)
+cluster id	5	Saturn (disambiguation)
+cluster id	5	Uranus (disambiguation)
+cluster id	5	Pluto (disambiguation)
+cluster id	5	Star
+cluster id	5	Asteroid belt
+cluster id	5	List of mythologies
+cluster id	5	Phases of the Moon
+cluster id	5	Hubble Space Telescope
+cluster id	5	List of telescope types
+cluster id	5	List of languages
+cluster id	5	Lists of astronomical objects
+cluster id	5	List of stars
+cluster id	5	List of planets
+cluster id	5	List of galaxies
+cluster id	5	List of nearest galaxies
+cluster id	5	List of satellites of the Milky Way
+cluster id	5	List of stars with confirmed extrasolar planets
+cluster id	5	White dwarf
+cluster id	5	Astronomer
+cluster id	5	List of traditional star names
+cluster id	5	Constellation
+cluster id	5	Radio wave
+cluster id	5	Phoebe (moon)
+cluster id	5	Jupiter (mythology)
+cluster id	5	Orbit
+cluster id	5	World
+cluster id	6	Boot device
+cluster id	6	Boot
+cluster id	6	Foot
+cluster id	6	Shoe
+cluster id	6	Footwear
+cluster id	6	Booting
+cluster id	7	Bottle
+cluster id	7	Chat
+cluster id	7	Glass
+cluster id	7	Internet
+cluster id	7	Link
+cluster id	7	Microsoft
+cluster id	7	Magnifying glass
+cluster id	7	Internet slang
+cluster id	7	Operating system
+cluster id	7	Site
+cluster id	7	Server log
+cluster id	7	Server
+cluster id	7	Virtual community
+cluster id	7	World Wide Web
+cluster id	7	Website
+cluster id	7	Web browser
+cluster id	7	Web
+cluster id	7	Webpage
+cluster id	7	Microsoft Windows
+cluster id	7	Window
+cluster id	7	Spamming
+cluster id	7	LOL
+cluster id	7	Communication
+cluster id	7	Neptune (disambiguation)
+cluster id	7	HTML
+cluster id	7	Internet Explorer
+cluster id	7	Sideboard
+cluster id	7	Linux
+cluster id	7	OpenOffice
+cluster id	7	GNOME
+cluster id	7	Swatch Internet Time
+cluster id	7	AbiWord
+cluster id	7	List of operating systems
+cluster id	7	Epiphany (software)
+cluster id	7	Glass rod
+cluster id	7	ΜCLinux
+cluster id	7	UNIX
+cluster id	7	Mandrake
+cluster id	7	Debian
+cluster id	7	GNU
+cluster id	7	Microsoft Word
+cluster id	7	Gothic cathedrals
+cluster id	7	List of words about computers
+cluster id	7	Usenet
+cluster id	7	Tux
+cluster id	7	Visual Basic
+cluster id	8	Berry
+cluster id	8	Fruit
+cluster id	8	List of fruits
+cluster id	8	Lime
+cluster id	8	Luffa
+cluster id	8	Banana
+cluster id	8	Medlar
+cluster id	9	Black
+cluster id	9	Blue
+cluster id	9	Dye
+cluster id	9	Light
+cluster id	9	List of color topics
+cluster id	9	Indigo
+cluster id	10	Bubonic plague
+cluster id	10	Emphysema
+cluster id	10	List of diseases
+cluster id	10	Herpes zoster
+cluster id	10	Tuberculosis
+cluster id	10	Disease
+cluster id	11	Computer science
+cluster id	11	Statistics
+cluster id	11	Data
+cluster id	11	Information
+cluster id	11	Data compression
+cluster id	11	Computer jargon
+cluster id	12	Computer
+cluster id	12	Creativity
+cluster id	12	GNU Free Documentation License
+cluster id	12	License
+cluster id	12	MediaWiki
+cluster id	12	Open content
+cluster id	12	Program
+cluster id	12	Software
+cluster id	12	Computer program
+cluster id	12	Creative Commons
+cluster id	12	Advertising
+cluster id	12	Freeware
+cluster id	12	Open source
+cluster id	12	GNU General Public License
+cluster id	12	Computer hardware
+cluster id	12	Creating
+cluster id	12	Adware
+cluster id	12	Creative Commons licenses
+cluster id	12	Programmer
+cluster id	12	Programming language
+cluster id	12	Berkeley Software Distribution
+cluster id	13	Creator
+cluster id	13	Devil
+cluster id	13	God
+cluster id	13	Miracle
+cluster id	13	Kami
+cluster id	13	Sin
+cluster id	13	God paradox
+cluster id	13	God Save the Queen
+cluster id	13	Atheism
+cluster id	13	Aztecs
+cluster id	14	Contact network
+cluster id	14	Network
+cluster id	14	Social capital
+cluster id	14	Power network
+cluster id	14	Socialism
+cluster id	14	Social network
+cluster id	15	Christian
+cluster id	15	Sabbath in Christianity
+cluster id	15	Ten Commandments
+cluster id	15	Sunday
+cluster id	15	Week
+cluster id	15	Monday
+cluster id	15	Wednesday
+cluster id	15	Thursday
+cluster id	15	Saturday
+cluster id	16	Cube
+cluster id	16	Proof
+cluster id	16	Right angle
+cluster id	16	Area
+cluster id	16	Angle
+cluster id	16	Square
+cluster id	16	Rectangle
+cluster id	16	Trafalgar Square
+cluster id	16	Pythagoras
+cluster id	16	Pythagorean theorem
+cluster id	17	Dublin
+cluster id	17	Ireland
+cluster id	17	United Kingdom
+cluster id	17	Thomm
+cluster id	17	England
+cluster id	17	Scotland
+cluster id	17	Northern Ireland
+cluster id	17	Great Britain
+cluster id	17	Tributary
+cluster id	17	Ulster
+cluster id	17	Bristol
+cluster id	17	Republic of Ireland
+cluster id	17	Glamorgan
+cluster id	17	British Isles
+cluster id	17	Malcolm IV of Scotland
+cluster id	17	David I of Scotland
+cluster id	17	Saint Margaret of Scotland
+cluster id	17	Alexander I of Scotland
+cluster id	17	Cathedral
+cluster id	17	Somerset
+cluster id	17	Glastonbury
+cluster id	17	Glastonbury Abbey
+cluster id	17	Somerton
+cluster id	17	Yeovil, Somerset
+cluster id	17	Bridgwater
+cluster id	17	Taunton
+cluster id	17	Shepton Mallet
+cluster id	17	Wells
+cluster id	17	East Coker, Somerset
+cluster id	17	Tatworth
+cluster id	17	Chard (Somerset)
+cluster id	17	Crewkerne
+cluster id	17	Stoford, Somerset
+cluster id	17	River Tone
+cluster id	17	River Yeo
+cluster id	17	River Aire
+cluster id	17	River Aln
+cluster id	17	Ilminster, Somerset
+cluster id	17	Watchet
+cluster id	17	Burnham-on-Sea
+cluster id	17	Yatton
+cluster id	17	Backwell
+cluster id	17	Nailsea
+cluster id	17	Clevedon
+cluster id	17	Weston-super-Mare
+cluster id	17	South Somerset
+cluster id	17	County
+cluster id	17	Town
+cluster id	17	Village
+cluster id	17	Devon
+cluster id	18	Dance
+cluster id	18	Bambuco
+cluster id	18	Choreography
+cluster id	18	Line dance
+cluster id	18	Colombia
+cluster id	18	Samba
+cluster id	19	Grammar
+cluster id	19	Language
+cluster id	19	Noun
+cluster id	19	Proper noun
+cluster id	19	Verb
+cluster id	19	Plural
+cluster id	19	English language
+cluster id	19	Adjective
+cluster id	19	Phrase
+cluster id	19	Pronoun
+cluster id	19	Synonym
+cluster id	19	Phrasal verb
+cluster id	19	Latin
+cluster id	20	Great Lakes
+cluster id	20	Lake Michigan
+cluster id	20	Mississippi River
+cluster id	20	Minnesota River
+cluster id	20	Wisconsin River
+cluster id	20	Illinois River
+cluster id	20	Biel/Bienne, Switzerland
+cluster id	20	Lake
+cluster id	20	List of lakes
+cluster id	20	Table salt
+cluster id	20	Michigan
+cluster id	20	Salt Lake City
+cluster id	20	Iodised salt
+cluster id	20	Salt
+cluster id	21	Hawaii
+cluster id	21	Honolulu
+cluster id	21	Hawaii (island)
+cluster id	21	Molokai
+cluster id	21	Niihau
+cluster id	21	Oahu
+cluster id	21	Hawaiian Islands
+cluster id	21	Mauna Kea
+cluster id	21	Mauna Loa
+cluster id	21	Kilauea
+cluster id	21	Volcano
+cluster id	21	Hawaiian
+cluster id	21	Popocatépetl
+cluster id	22	India
+cluster id	22	Mahatma Gandhi
+cluster id	22	Kolkata
+cluster id	22	Hindi
+cluster id	22	Mumbai
+cluster id	22	Bangalore
+cluster id	22	New Delhi
+cluster id	23	Japan
+cluster id	23	Japanese language
+cluster id	23	Shinto
+cluster id	23	Matsuo Basho
+cluster id	23	Japanese
+cluster id	23	Yosa Buson
+cluster id	24	London
+cluster id	24	Maui
+cluster id	24	Association football
+cluster id	24	Munich
+cluster id	24	Plymouth Argyle F.C.
+cluster id	24	Football
+cluster id	24	List of English football teams
+cluster id	24	Scottish Football League
+cluster id	24	List of French football teams
+cluster id	24	List of Italian football teams
+cluster id	24	Welsh League
+cluster id	24	Arsenal F.C.
+cluster id	24	Aston Villa F.C.
+cluster id	24	Birmingham City F.C.
+cluster id	24	Blackburn Rovers F.C.
+cluster id	24	Bolton Wanderers F.C.
+cluster id	24	Charlton Athletic F.C.
+cluster id	24	Chelsea F.C.
+cluster id	24	Everton F.C.
+cluster id	24	Fulham F.C.
+cluster id	24	Liverpool F.C.
+cluster id	24	Manchester City F.C.
+cluster id	24	Manchester United F.C.
+cluster id	24	Middlesbrough F.C.
+cluster id	24	Newcastle United F.C.
+cluster id	24	Portsmouth F.C.
+cluster id	24	Tottenham Hotspur F.C.
+cluster id	24	Derby County F.C.
+cluster id	24	Ipswich Town F.C.
+cluster id	24	Sunderland A.F.C.
+cluster id	24	West Bromwich Albion F.C.
+cluster id	24	West Ham United F.C.
+cluster id	24	Wigan Athletic F.C.
+cluster id	24	Wimbledon F.C.
+cluster id	24	Accrington Stanley F.C.
+cluster id	24	Telford United F.C.
+cluster id	24	A.F.C. Wimbledon
+cluster id	24	Sheffield F.C.
+cluster id	24	London boroughs
+cluster id	24	City of London
+cluster id	24	City of Westminster
+cluster id	24	London Borough of Lambeth
+cluster id	24	London Borough of Southwark
+cluster id	24	London Borough of Camden
+cluster id	24	London Borough of Merton
+cluster id	24	Brixton
+cluster id	24	Bankside
+cluster id	24	River Thames
+cluster id	24	Camden
+cluster id	24	Royal Borough of Greenwich
+cluster id	24	London Borough of Wandsworth
+cluster id	24	London Borough of Islington
+cluster id	24	NEWI Cefn Druids F.C.
+cluster id	24	Aberystwyth Town F.C.
+cluster id	24	Oldham Cricket Club
+cluster id	24	Cricket
+cluster id	24	List of Portuguese football teams
+cluster id	24	List of buildings
+cluster id	24	List of waterways
+cluster id	24	Suez Canal
+cluster id	24	Canal
+cluster id	24	Galatasaray S.K.
+cluster id	24	FC Bayern Munich
+cluster id	24	Baseball
+cluster id	24	EFL Championship
+cluster id	25	North America
+cluster id	25	Atlantic Ocean
+cluster id	25	Pacific Ocean
+cluster id	25	Antarctica
+cluster id	25	Indian Ocean
+cluster id	25	Arctic Ocean
+cluster id	25	Southern Ocean
+cluster id	25	Arctic
+cluster id	26	New York City
+cluster id	26	New York
+cluster id	26	Syracuse, New York
+cluster id	27	Theatre
+cluster id	27	Movie
+cluster id	27	Britney Spears
+cluster id	27	Gwyneth Paltrow
+cluster id	27	Sarah Michelle Gellar
+cluster id	27	Jennifer Garner
+cluster id	27	Heather Graham
+cluster id	27	Christina Ricci
+cluster id	27	Julia Roberts
+cluster id	27	Angelina Jolie
+cluster id	27	Elizabeth Taylor
+cluster id	27	Hilary Swank
+cluster id	27	Cate Blanchett
+cluster id	27	Kylie Minogue
+cluster id	27	Natalie Imbruglia
+cluster id	27	Nicole Kidman
+cluster id	27	Hugh Jackman
+cluster id	27	Mel Gibson
+cluster id	27	Natalie Portman
+cluster id	27	Alyson Hannigan
+cluster id	27	Jessica Alba
+cluster id	27	Brad Pitt
+cluster id	27	Jennifer Aniston
+cluster id	27	Jennifer Love Hewitt
+cluster id	27	Katie Holmes
+cluster id	27	Sigourney Weaver
+cluster id	27	Audrey Hepburn
+cluster id	27	Katharine Hepburn
+cluster id	27	Play (theatre)
+cluster id	27	Actor
+cluster id	28	Cold War
+cluster id	28	Russia
+cluster id	28	Moscow
+cluster id	28	Russian
+cluster id	28	Russian language
+cluster id	28	Soviet Union
+cluster id	28	Communism
+cluster id	28	List of Soviet Union-related topics
+cluster id	28	List of communist parties
+cluster id	28	Marxism
+cluster id	28	Leninism
+cluster id	28	Bolshevik
+cluster id	28	Vladimir Lenin
+cluster id	28	Leon Trotsky
+cluster id	28	Joseph Stalin
+cluster id	29	Albert Einstein
+cluster id	29	Photon
+cluster id	29	Energy
+cluster id	29	Heat
+cluster id	29	Kinetic energy
+cluster id	29	Potential energy
+cluster id	30	1925
+cluster id	30	1974
+cluster id	30	1965
+cluster id	30	1969
+cluster id	30	1978
+cluster id	30	1933
+cluster id	30	1967
+cluster id	30	2004
+cluster id	30	2001
+cluster id	30	2002
+cluster id	30	2003
+cluster id	30	1999
+cluster id	30	1998
+cluster id	30	1997
+cluster id	30	1996
+cluster id	30	1995
+cluster id	30	1994
+cluster id	30	1993
+cluster id	30	1992
+cluster id	30	1991
+cluster id	30	2005
+cluster id	30	2006
+cluster id	30	2007
+cluster id	30	1989
+cluster id	30	2009
+cluster id	30	2000
+cluster id	30	1850
+cluster id	30	1869
+cluster id	30	1826
+cluster id	30	1815
+cluster id	30	1858
+cluster id	30	1870
+cluster id	30	1871
+cluster id	30	1882
+cluster id	30	1941
+cluster id	30	1945
+cluster id	30	1902
+cluster id	30	1879
+cluster id	30	October 21
+cluster id	30	1970
+cluster id	30	March 28
+cluster id	30	January 25
+cluster id	30	April 28
+cluster id	30	August 16
+cluster id	30	December 23
+cluster id	30	October 25
+cluster id	30	April 4
+cluster id	30	May 28
+cluster id	30	December 14
+cluster id	30	February 13
+cluster id	30	January 31
+cluster id	30	1981
+cluster id	30	February 22
+cluster id	30	February 12
+cluster id	30	April 15
+cluster id	30	March 17
+cluster id	30	B
+cluster id	30	Nobel Prize
+cluster id	30	February 3
+cluster id	30	June 1
+cluster id	31	Game
+cluster id	31	Chess
+cluster id	31	Mancala
+cluster id	31	Boss
+cluster id	31	Combinatorial game theory
+cluster id	31	Nim
+cluster id	31	Badminton
+cluster id	31	Video game console
+cluster id	31	Gambling
+cluster id	31	Mario
+cluster id	31	Video game
+cluster id	31	GURPS
+cluster id	31	Nagano, Nagano
+cluster id	31	Denise Lewis
+cluster id	31	Olympic Games
+cluster id	31	Dice
+cluster id	31	Checkers
+cluster id	32	Gas syringe
+cluster id	32	Gas
+cluster id	32	States of matter
+cluster id	32	Natural gas
+cluster id	32	Xenon
+cluster id	32	Vapor
+cluster id	33	Weapon
+cluster id	33	Gun
+cluster id	33	Nuclear war
+cluster id	33	World War
+cluster id	33	Nuclear weapon
+cluster id	34	Male
+cluster id	34	Female
+cluster id	34	Sex
+cluster id	34	Human penis
+cluster id	34	Man
+cluster id	34	Woman
+cluster id	34	Gender
+cluster id	34	Alpha male
+cluster id	35	Netherlands
+cluster id	35	Holland
+cluster id	35	Saskatchewan
+cluster id	35	Groningen (province)
+cluster id	35	Groningen (disambiguation)
+cluster id	35	Province
+cluster id	36	1
+cluster id	36	2
+cluster id	36	3
+cluster id	36	4
+cluster id	36	5
+cluster id	36	6
+cluster id	36	7
+cluster id	36	8
+cluster id	37	Henry I of England
+cluster id	37	William the Conqueror
+cluster id	37	Matilda of Flanders
+cluster id	37	Adelaide of Aquitaine
+cluster id	37	William III of Aquitaine
+cluster id	37	William the Silent
+cluster id	38	Basilica of Saint-Denis
+cluster id	38	Patron saint
+cluster id	38	Saint David
+cluster id	38	Saint George
+cluster id	38	Saint Andrew
+cluster id	38	Saint Patrick
+cluster id	38	491
+cluster id	38	402
+cluster id	38	Antigua and Barbuda

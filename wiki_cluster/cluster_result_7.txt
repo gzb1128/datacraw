@@ -1,0 +1,429 @@
+cluster id	1	April
+cluster id	1	August
+cluster id	1	December
+cluster id	1	February
+cluster id	1	January
+cluster id	1	July
+cluster id	1	Leap year
+cluster id	1	March
+cluster id	1	May
+cluster id	1	Common year
+cluster id	2	A
+cluster id	2	I
+cluster id	2	Q
+cluster id	2	Y
+cluster id	2	Z
+cluster id	2	Alphabet
+cluster id	2	Latin script
+cluster id	2	Letter
+cluster id	3	Arithmetic
+cluster id	3	Like
+cluster id	3	Litre
+cluster id	3	Metre
+cluster id	3	Spache Readability Formula
+cluster id	3	Subtraction
+cluster id	3	Unit of measurement
+cluster id	3	Republic of China
+cluster id	3	Time
+cluster id	3	Kuala Lumpur
+cluster id	3	Lisa Kudrow
+cluster id	4	Atom
+cluster id	4	Chemistry
+cluster id	4	Compound
+cluster id	4	Chemical element
+cluster id	4	Molecule
+cluster id	4	Periodic table
+cluster id	4	Table
+cluster id	4	Zinc
+cluster id	4	Ion
+cluster id	4	Argon
+cluster id	4	Gold
+cluster id	4	Metal
+cluster id	4	Isotope
+cluster id	4	Crucible
+cluster id	4	Lithium
+cluster id	4	Beryllium
+cluster id	4	Chemical warfare
+cluster id	4	Electron
+cluster id	4	Solid
+cluster id	4	Organic compound
+cluster id	4	Xenon
+cluster id	4	Brass
+cluster id	4	Alloy
+cluster id	4	Chemical change
+cluster id	4	Platinum
+cluster id	4	Metallurgy
+cluster id	4	Aluminium
+cluster id	4	List of elements by symbol
+cluster id	4	Periodic table (big)
+cluster id	4	Periodic table (metals and non-metals)
+cluster id	4	Ionic compound
+cluster id	4	Chemical compound
+cluster id	5	Astronomy
+cluster id	5	Galaxy
+cluster id	5	Radio telescope
+cluster id	5	Telescope
+cluster id	5	Hubble Space Telescope
+cluster id	5	List of telescope types
+cluster id	5	Lists of astronomical objects
+cluster id	5	Astronomer
+cluster id	6	Black pudding
+cluster id	6	Cytology
+cluster id	6	Ebola virus
+cluster id	6	Life
+cluster id	6	Metabolism
+cluster id	6	Protein
+cluster id	6	Developmental biology
+cluster id	6	Blood
+cluster id	6	Polymer
+cluster id	6	Dental pulp
+cluster id	6	Protoplasm
+cluster id	6	Chemical cell
+cluster id	6	Enzyme
+cluster id	6	Body
+cluster id	6	Brain
+cluster id	6	Neuron
+cluster id	6	DNA
+cluster id	6	Electrical cell
+cluster id	6	Dry cell
+cluster id	6	Cytokine
+cluster id	6	Virus
+cluster id	6	Biochemistry
+cluster id	6	ELISPOT
+cluster id	6	List of biochemistry topics
+cluster id	6	White blood cell
+cluster id	6	Lymphocyte
+cluster id	6	Kwashiorkor
+cluster id	6	Granzyme
+cluster id	6	Battery
+cluster id	7	Creator
+cluster id	7	Devil
+cluster id	7	God
+cluster id	7	Miracle
+cluster id	7	Kami
+cluster id	7	Sin
+cluster id	7	God paradox
+cluster id	7	God Save the Queen
+cluster id	7	Atheism
+cluster id	7	Aztecs
+cluster id	8	Creativity
+cluster id	8	GNU Free Documentation License
+cluster id	8	License
+cluster id	8	MediaWiki
+cluster id	8	Open content
+cluster id	8	Software
+cluster id	8	Creative Commons
+cluster id	8	Freeware
+cluster id	8	Open source
+cluster id	8	GNU General Public License
+cluster id	8	Computer hardware
+cluster id	8	Creating
+cluster id	8	Creative Commons licenses
+cluster id	8	Programmer
+cluster id	8	Berkeley Software Distribution
+cluster id	9	Chat
+cluster id	9	Internet
+cluster id	9	Link
+cluster id	9	Internet slang
+cluster id	9	Server log
+cluster id	9	Server
+cluster id	9	Virtual community
+cluster id	9	World Wide Web
+cluster id	9	Website
+cluster id	9	Web browser
+cluster id	9	Web
+cluster id	9	Webpage
+cluster id	9	Spamming
+cluster id	9	LOL
+cluster id	9	Communication
+cluster id	9	HTML
+cluster id	9	Swatch Internet Time
+cluster id	9	Epiphany (software)
+cluster id	9	List of words about computers
+cluster id	9	Usenet
+cluster id	10	Dublin
+cluster id	10	Ireland
+cluster id	10	United Kingdom
+cluster id	10	England
+cluster id	10	Scotland
+cluster id	10	Northern Ireland
+cluster id	10	Great Britain
+cluster id	10	Tributary
+cluster id	10	Ulster
+cluster id	10	Bristol
+cluster id	10	Republic of Ireland
+cluster id	10	Glamorgan
+cluster id	10	British Isles
+cluster id	10	Cathedral
+cluster id	10	Somerset
+cluster id	10	Glastonbury
+cluster id	10	Glastonbury Abbey
+cluster id	10	Somerton
+cluster id	10	Yeovil, Somerset
+cluster id	10	Bridgwater
+cluster id	10	Taunton
+cluster id	10	Shepton Mallet
+cluster id	10	Wells
+cluster id	10	East Coker, Somerset
+cluster id	10	Tatworth
+cluster id	10	Chard (Somerset)
+cluster id	10	Crewkerne
+cluster id	10	Stoford, Somerset
+cluster id	10	River Tone
+cluster id	10	River Yeo
+cluster id	10	River Aire
+cluster id	10	River Aln
+cluster id	10	Ilminster, Somerset
+cluster id	10	Watchet
+cluster id	10	Burnham-on-Sea
+cluster id	10	Yatton
+cluster id	10	Backwell
+cluster id	10	Nailsea
+cluster id	10	Clevedon
+cluster id	10	Weston-super-Mare
+cluster id	10	South Somerset
+cluster id	10	County
+cluster id	10	Town
+cluster id	10	Village
+cluster id	10	Devon
+cluster id	11	Grammar
+cluster id	11	Noun
+cluster id	11	Proper noun
+cluster id	11	Verb
+cluster id	11	Plural
+cluster id	11	English language
+cluster id	11	Adjective
+cluster id	11	Phrase
+cluster id	11	Pronoun
+cluster id	11	Synonym
+cluster id	11	Phrasal verb
+cluster id	12	Great Lakes
+cluster id	12	Lake Michigan
+cluster id	12	Mississippi River
+cluster id	12	Minnesota River
+cluster id	12	Wisconsin River
+cluster id	12	Illinois River
+cluster id	12	Lake
+cluster id	12	List of lakes
+cluster id	13	Hawaii
+cluster id	13	Honolulu
+cluster id	13	Hawaii (island)
+cluster id	13	Molokai
+cluster id	13	Niihau
+cluster id	13	Oahu
+cluster id	13	Hawaiian Islands
+cluster id	13	Hawaiian
+cluster id	14	Jupiter
+cluster id	14	Neptune
+cluster id	14	Planet
+cluster id	14	Solar System
+cluster id	14	Saturn
+cluster id	14	Uranus
+cluster id	14	Natural satellite
+cluster id	14	Jupiter (disambiguation)
+cluster id	14	Uranus (disambiguation)
+cluster id	14	Pluto (disambiguation)
+cluster id	14	Asteroid belt
+cluster id	14	List of planets
+cluster id	14	List of stars with confirmed extrasolar planets
+cluster id	14	Jupiter (mythology)
+cluster id	14	Orbit
+cluster id	14	World
+cluster id	15	London
+cluster id	15	Maui
+cluster id	15	Association football
+cluster id	15	Munich
+cluster id	15	Plymouth Argyle F.C.
+cluster id	15	Football
+cluster id	15	List of English football teams
+cluster id	15	Scottish Football League
+cluster id	15	List of French football teams
+cluster id	15	List of Italian football teams
+cluster id	15	Welsh League
+cluster id	15	Arsenal F.C.
+cluster id	15	Aston Villa F.C.
+cluster id	15	Birmingham City F.C.
+cluster id	15	Blackburn Rovers F.C.
+cluster id	15	Bolton Wanderers F.C.
+cluster id	15	Charlton Athletic F.C.
+cluster id	15	Chelsea F.C.
+cluster id	15	Everton F.C.
+cluster id	15	Fulham F.C.
+cluster id	15	Liverpool F.C.
+cluster id	15	Manchester City F.C.
+cluster id	15	Manchester United F.C.
+cluster id	15	Middlesbrough F.C.
+cluster id	15	Newcastle United F.C.
+cluster id	15	Portsmouth F.C.
+cluster id	15	Tottenham Hotspur F.C.
+cluster id	15	Derby County F.C.
+cluster id	15	Ipswich Town F.C.
+cluster id	15	Sunderland A.F.C.
+cluster id	15	West Bromwich Albion F.C.
+cluster id	15	West Ham United F.C.
+cluster id	15	Wigan Athletic F.C.
+cluster id	15	Wimbledon F.C.
+cluster id	15	Accrington Stanley F.C.
+cluster id	15	Telford United F.C.
+cluster id	15	A.F.C. Wimbledon
+cluster id	15	Sheffield F.C.
+cluster id	15	London boroughs
+cluster id	15	City of London
+cluster id	15	City of Westminster
+cluster id	15	London Borough of Lambeth
+cluster id	15	London Borough of Southwark
+cluster id	15	London Borough of Camden
+cluster id	15	London Borough of Merton
+cluster id	15	Brixton
+cluster id	15	Bankside
+cluster id	15	River Thames
+cluster id	15	Camden
+cluster id	15	Royal Borough of Greenwich
+cluster id	15	London Borough of Wandsworth
+cluster id	15	London Borough of Islington
+cluster id	15	NEWI Cefn Druids F.C.
+cluster id	15	Aberystwyth Town F.C.
+cluster id	15	Oldham Cricket Club
+cluster id	15	Cricket
+cluster id	15	List of buildings
+cluster id	15	Galatasaray S.K.
+cluster id	15	FC Bayern Munich
+cluster id	15	Baseball
+cluster id	15	EFL Championship
+cluster id	16	Microsoft
+cluster id	16	Microsoft Windows
+cluster id	16	Window
+cluster id	16	Neptune (disambiguation)
+cluster id	16	Internet Explorer
+cluster id	16	AbiWord
+cluster id	16	List of operating systems
+cluster id	16	Microsoft Word
+cluster id	16	Visual Basic
+cluster id	17	Theatre
+cluster id	17	Movie
+cluster id	17	Britney Spears
+cluster id	17	Gwyneth Paltrow
+cluster id	17	Sarah Michelle Gellar
+cluster id	17	Jennifer Garner
+cluster id	17	Heather Graham
+cluster id	17	Christina Ricci
+cluster id	17	Julia Roberts
+cluster id	17	Angelina Jolie
+cluster id	17	Elizabeth Taylor
+cluster id	17	Hilary Swank
+cluster id	17	Cate Blanchett
+cluster id	17	Natalie Imbruglia
+cluster id	17	Nicole Kidman
+cluster id	17	Hugh Jackman
+cluster id	17	Mel Gibson
+cluster id	17	Natalie Portman
+cluster id	17	Alyson Hannigan
+cluster id	17	Jessica Alba
+cluster id	17	Brad Pitt
+cluster id	17	Jennifer Aniston
+cluster id	17	Jennifer Love Hewitt
+cluster id	17	Katie Holmes
+cluster id	17	Sigourney Weaver
+cluster id	17	Audrey Hepburn
+cluster id	17	Katharine Hepburn
+cluster id	17	Play (theatre)
+cluster id	17	Actor
+cluster id	18	1925
+cluster id	18	1974
+cluster id	18	1965
+cluster id	18	1969
+cluster id	18	1978
+cluster id	18	1933
+cluster id	18	1967
+cluster id	18	2004
+cluster id	18	2001
+cluster id	18	2002
+cluster id	18	2003
+cluster id	18	1999
+cluster id	18	1998
+cluster id	18	1997
+cluster id	18	1996
+cluster id	18	1995
+cluster id	18	1994
+cluster id	18	1993
+cluster id	18	1992
+cluster id	18	1991
+cluster id	18	2005
+cluster id	18	2006
+cluster id	18	2007
+cluster id	18	1989
+cluster id	18	2009
+cluster id	18	2000
+cluster id	18	1850
+cluster id	18	1869
+cluster id	18	1826
+cluster id	18	1815
+cluster id	18	1858
+cluster id	18	1870
+cluster id	18	1871
+cluster id	18	1882
+cluster id	18	1941
+cluster id	18	1945
+cluster id	18	1902
+cluster id	18	1879
+cluster id	18	October 21
+cluster id	18	1970
+cluster id	18	March 28
+cluster id	18	January 25
+cluster id	18	April 28
+cluster id	18	August 16
+cluster id	18	December 23
+cluster id	18	October 25
+cluster id	18	April 4
+cluster id	18	May 28
+cluster id	18	December 14
+cluster id	18	February 13
+cluster id	18	January 31
+cluster id	18	1981
+cluster id	18	February 22
+cluster id	18	February 12
+cluster id	18	April 15
+cluster id	18	March 17
+cluster id	18	B
+cluster id	18	Nobel Prize
+cluster id	18	February 3
+cluster id	18	June 1
+cluster id	19	Russia
+cluster id	19	Russian
+cluster id	19	Russian language
+cluster id	19	Soviet Union
+cluster id	19	Bolshevik
+cluster id	19	Vladimir Lenin
+cluster id	19	Leon Trotsky
+cluster id	19	Joseph Stalin
+cluster id	20	Game
+cluster id	20	Chess
+cluster id	20	Mancala
+cluster id	20	Boss
+cluster id	20	Combinatorial game theory
+cluster id	20	Nim
+cluster id	20	Badminton
+cluster id	20	Video game console
+cluster id	20	Gambling
+cluster id	20	Mario
+cluster id	20	Video game
+cluster id	20	GURPS
+cluster id	20	Olympic Games
+cluster id	20	Dice
+cluster id	21	Linux
+cluster id	21	GNOME
+cluster id	21	ΜCLinux
+cluster id	21	UNIX
+cluster id	21	Mandrake
+cluster id	21	Debian
+cluster id	21	GNU
+cluster id	21	Tux
+cluster id	22	Basilica of Saint-Denis
+cluster id	22	Patron saint
+cluster id	22	Saint David
+cluster id	22	Saint George
+cluster id	22	Saint Andrew
+cluster id	22	Saint Patrick
+cluster id	22	491
+cluster id	22	402
+cluster id	22	Antigua and Barbuda
